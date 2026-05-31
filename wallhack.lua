@@ -1,7 +1,7 @@
 script_name("Wallhack")
 script_author("Riffall")
 script_description("/wallhack or HOME for settings")
-script_version("1")
+script_version("1.01")
 
 
 require "lib.moonloader"
