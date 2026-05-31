@@ -310,12 +310,6 @@ function wallhack()
 
                             renderDrawLine(pos1, pos2, pos3, pos4, 1, clist)
                         end
-
-                        for all = 4, 5 do
-                        local posX_2, posY_2, posZ_2 = getBonesCoordinates(all * 10 + 1, cped)
-                        local pos3, pos4 = convert3DCoordsToScreen(posX_2, posY_2, posZ_2)
-                        renderDrawLine(pos1, pos2, pos3, pos4, 1, clist)
-                        end
                     end
                 end
             end
